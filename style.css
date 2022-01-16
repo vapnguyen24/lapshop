@@ -88,7 +88,8 @@ ul li:hover>.sub-menu{
   font-size: 17px;
   margin: 0;
   padding: 0;
-  border-radius: 0 0 4px 4px;
+  top: 65px;
+  border-radius: 4px;
   list-style: none;
   width: 150px;
   position: absolute;
@@ -108,7 +109,6 @@ ul li:hover>.sub-menu{
 .sub-menu>li a:hover{
   text-transform: capitalize;
   display: block;
-  border-radius: 0;
   color: #000;
   font-weight: 500;
   background-color: #eff0f4;
