@@ -296,14 +296,15 @@ article{
   display: flex;
 }
 .brand-items .brands-name div{
-  border: 1px solid #d2d7e1;
+  border: 1px solid rgba(236, 240, 244);
+
   border-radius: 8px;
   margin-right: 8px;
 }
 .brand-items .brands-name div:hover{
-  border: 1px solid #06c1d5;
   transition: .25s linear;
   cursor: pointer;
+  background-color: rgba(236, 240, 244);
 
 }
 .brand-items .brands-name div img{
@@ -340,7 +341,6 @@ article{
 }
 footer{
   width: 100%;
-  /* background: #06c1d5; */
   display: flex;
   padding:  40px 30px;
   font-size: 18px;

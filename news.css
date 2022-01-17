@@ -52,6 +52,7 @@ article{
 .column1:hover{
     cursor: pointer;
     box-shadow: 0 4px 24px rgb(0 0 0 / 25%);
+    border: none;
 }
 
 .image-news img{
